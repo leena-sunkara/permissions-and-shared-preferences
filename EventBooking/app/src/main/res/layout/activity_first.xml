@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:orientation="vertical"
+    tools:context=".FirstScreen">
+
+    <View
+        android:id="@+id/whiteScreenOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/welcomeOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/welcome"
+        android:textColor="@color/red"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etFirstName"
+        style="@style/et_style"
+        android:layout_below="@+id/welcomeOne"
+        android:hint="@string/enter_first_name" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        style="@style/et_style"
+        android:layout_below="@+id/etFirstName"
+        android:hint="@string/enter_last_name" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        style="@style/et_style"
+        android:layout_below="@+id/etLastName"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        style="@style/et_style"
+        android:layout_below="@+id/etEmail"
+        android:hint="@string/enter_phone_number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnOne"
+        style="@style/et_style"
+        android:layout_below="@+id/etPhoneNumber"
+        android:backgroundTint="@color/red"
+        android:text="@string/btn_enter"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>

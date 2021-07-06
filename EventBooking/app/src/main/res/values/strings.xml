@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EventBooking</string>
+    <string name="welcome">Welcome!</string>
+    <string name="enter_first_name">Enter first name</string>
+    <string name="enter_last_name">Enter last name</string>
+    <string name="enter_email">Enter email address</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="btn_enter">Enter</string>
+    <string name="enter_the_number_of_seats">Enter the number of seats</string>
+    <string name="enter_the_date_of_show">Enter the date of show</string>
+    <string name="btn_confirm">Confirm</string>
+</resources>

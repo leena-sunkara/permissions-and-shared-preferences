@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:textAlignment="center">
+
+    <LinearLayout
+        style="@style/tv_style"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvFirstNameTwo"
+            style="@style/tv_style" />
+
+        <TextView
+            android:id="@+id/tvLastNameTwo"
+            style="@style/tv_style" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvEmailTwo"
+        style="@style/tv_style" />
+
+    <TextView
+        android:id="@+id/tvPhoneNumberTwo"
+        style="@style/tv_style" />
+
+    <TextView
+        android:id="@+id/tvNoOfSeats"
+        style="@style/tv_style"/>
+
+    <TextView
+        android:id="@+id/tvDateOfShow"
+        style="@style/tv_style" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        style="@style/et_style"
+        android:backgroundTint="@color/red"
+        android:text="@string/btn_confirm"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>
